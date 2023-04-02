@@ -1,0 +1,10 @@
+
+gcloud container clusters create argocd --num-nodes=2 --zone=us-central1-a
+
+gcloud container clusters get-credentials argocd --zone=us-central1-a
+
+kubectl create ns argocd
+
+kubectl -n argocd apply -f install.yaml
+
+kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo
