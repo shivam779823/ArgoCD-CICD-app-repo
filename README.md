@@ -8,6 +8,9 @@ This repository demonstrates how to set up a CI/CD pipeline for a Python applica
 ![Untitled Diagram drawio](https://user-images.githubusercontent.com/105196334/229345148-d2ac5543-9853-49e2-a763-fe149273aa95.png)
 
 
+Deployment repo : [ArgoCD-CICD-deployment-repo](https://github.com/shivam779823/ArgoCD-CICD-deployment-repo)
+
+
 # Prerequisites
 Before you begin, you'll need to have the following:
 
