@@ -5,6 +5,7 @@ This repository demonstrates how to set up a CI/CD pipeline for a Python applica
 
 # Architecture :
 
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/105196334/229345148-d2ac5543-9853-49e2-a763-fe149273aa95.png)
 
 
 # Prerequisites
@@ -23,10 +24,18 @@ Before you begin, you'll need to have the following:
 4. Setup argocd integration with deployment repo using ssh method
 5. Setup webhook for slack (optional).
 
+# ArgoCD UI
+
+<img width="1080" alt="image" src="https://user-images.githubusercontent.com/105196334/229345203-4d9b3620-486a-4a0e-a903-906ce20fb65b.png">
+
+
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 connect with me :
+
+[LINKEDIN ](https://www.linkedin.com/in/shivam1mahajan).
+
 
 
 
