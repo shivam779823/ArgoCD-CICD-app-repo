@@ -24,7 +24,7 @@ Before you begin, you'll need to have the following:
 1. Create two repos for app code and depoyment/helm charts code.
 2. Add github tokens to workflows.
 3. Create GKE Clusetr Install argoCD. 
-4. Setup argocd integration with deployment repo using ssh method
+4. Setup argocd integration with deployment repo using ssh method.
 5. Setup webhook for slack (optional).
 
 # ArgoCD UI
