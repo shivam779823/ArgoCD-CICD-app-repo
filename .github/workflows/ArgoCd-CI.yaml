@@ -78,7 +78,7 @@ jobs:
           -H "Authorization: token ${{secrets.API_TOKEN_GITHUB}}" \
           --request POST \
           --data '{"event_type": "update-deployment", "client_payload": { "buildnumber": "'"${{github.run_number}}"'" }}' \
-          https://api.github.com/repos/shivam779823/argocd-deployment/dispatches
+          https://api.github.com/repos/shivam779823/ArgoCD-CICD-deployment-repo/dispatches
 
    
      
