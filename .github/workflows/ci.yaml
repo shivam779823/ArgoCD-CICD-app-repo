@@ -4,7 +4,10 @@ on:
 #     branches: [ main ]
   pull_request:
     branches: [ main ]
-
+permissions:
+  contents: read
+  packages: write
+  security-events: write
 jobs:
   gitops:
     uses: shivam779823/cicd-resusable-workflows/.github/workflows/ci-workflow-v1.yaml@dev
